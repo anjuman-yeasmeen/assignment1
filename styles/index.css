@@ -204,34 +204,110 @@ margin-top: 16px;
   margin-bottom: 16px;
 }
 /* Second-Brain-Section */
-/* #Second-Brain-Section{ */
-    /* width:100% ; */
-/* max-width: 1360px; */
-/* margin: 0 auto; */
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: flex-start; */
-  /* align-items: center; */
-  /* gap: 60px; */
-/*  */
-/* } */
-/* #Second-Brain-Section .image-section{ */
-  /* width: 600px; */
-  /* height: 600px; */
-  /* border-radius: 12px; */
-/* } */
-/*  */
-/*  */
-/* .check-list li { */
-  /* background-image: url("../assets/CheckCircle.png"); */
-  /* background-repeat: no-repeat; */
-  /* background-position: left top 4px; */
-  /* background-size: 18px 18px; */
-/*  */
-  /* padding-left: 32px;    */
-  /* margin-bottom: 14px; */
-/*  */
-  /* font-size: 16px; */
-  /* line-height: 1.6; */
-  /* color: #333; */
-/* } */
+#Second-Brain-Section{
+    width:100% ;
+max-width: 1360px;
+margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+
+}
+#Second-Brain-Section .image-section{
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
+
+#Second-Brain-Section .content-section{
+  border: 1px solid red;
+  width: 700px;
+  height: 396px;
+  margin-top: 102px;
+  margin-bottom: 102px;
+} 
+#Second-Brain-Section .content-section .description-section{
+  width: 700px;
+  height: 228px;
+  padding-bottom: 40px;
+}
+#Second-Brain-Section .content-section .tagline{
+  color:#30B868;
+  font-size: 16px;
+}
+#Second-Brain-Section .content-section h1{
+  font-size: 48px;
+  font-weight: 700px;
+  text-transform: capitalize;
+}
+#Second-Brain-Section .content-section p{
+  font-size: 16px;
+  font-weight: 400px;
+  text-align: left;
+  color: #627382;
+}
+
+
+.check-list li {
+  background-image: url("../assets/CheckCircle.png");
+  background-repeat: no-repeat;
+  background-position: left top 4px;
+  background-size: 18px 18px;
+  list-style: none;
+  padding-left: 32px;   
+  margin-bottom: 16px;
+  font-size: 16px;
+  color:#001931;
+}
+/*Early Access Section  */
+#Early-Access-Section{
+  border: 1px solid red;
+      width:100% ;
+max-width: 1360px;
+margin: 0 auto;
+padding: 80px 40px 80px 40px;
+}
+#Early-Access-Section .early-access-content{
+text-align: center;
+}
+#Early-Access-Section h1{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  
+  margin-bottom: 16px;
+}
+#Early-Access-Section p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  
+}
+#Early-Access-Section .early-btn{
+  background-color: #30B868;
+  width: 194px;
+  height: 52px;
+  padding: 12px 16px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  
+}
+.early-note {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+  color: #777;
+}
+.dot {
+  margin: 0 8px;
+  color: #aaa;
+}
+
