@@ -277,6 +277,7 @@ margin: 0 auto;
 #Early-Access-Section{
       width:100% ;
 max-width: 1360px;
+background-color: #F7F6F2;
 margin: 0 auto;
 padding: 80px 40px 80px 40px;
 }
@@ -310,6 +311,10 @@ text-align: center;
   gap: 8px;
   cursor: pointer;
   
+}
+.early-btn:hover {
+  transform: scale(1.05);       
+  background-color: #1a422b;   
 }
 .early-note {
   font-size: 14px;
