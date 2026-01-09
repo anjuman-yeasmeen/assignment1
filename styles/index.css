@@ -92,12 +92,17 @@ text-align: center;
   display: inline-flex;
 align-items: center;
 gap: 10px;
-  padding:8px 12px 8px 12px ;
-  
-  
-  
+  padding:8px 12px 8px 12px ; 
 
 }
+.btn-early-access:hover {
+  transform: scale(1.05);
+  background-color: #28a55f;
+}
+
+   
+   
+
 #banner .banner-content h1{
 font-size: 72px ;
 font-weight: 700;
@@ -131,6 +136,10 @@ margin: 0 auto;
   padding: 16px;
 
 }
+.btn-start:hover {
+  transform: scale(1.05);      
+  background-color: #3c7956;  
+}
 .btn-how-it-works{
   width: 198px;
   height: 52px;
@@ -143,6 +152,10 @@ margin: 0 auto;
   gap: 8px; 
   padding: 16px;
 
+}
+.btn-how-it-works:hover {
+  transform: scale(1.05);       
+  background-color: #1a422b;   
 }
 
 /* note section */
@@ -222,7 +235,6 @@ margin: 0 auto;
 }
 
 #Second-Brain-Section .content-section{
-  border: 1px solid red;
   width: 700px;
   height: 396px;
   margin-top: 102px;
@@ -263,7 +275,6 @@ margin: 0 auto;
 }
 /*Early Access Section  */
 #Early-Access-Section{
-  border: 1px solid red;
       width:100% ;
 max-width: 1360px;
 margin: 0 auto;
@@ -309,5 +320,42 @@ text-align: center;
 .dot {
   margin: 0 8px;
   color: #aaa;
+}
+/* footer-section */
+#footer-section {
+  background-color:#001931;
+  color: #fff;
+  padding: 120px 120px 120px;
+}
+#footer-section .footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.footer-logo img {
+  height: 40px;
+}
+.footer-social img {
+  width: 20px;
+  height: 20px;
+
+}
+
+
+.footer-social a {
+  margin-left: 16px;
+  display: inline-block;
+}
+.footer-divider {
+  border: 0;
+  border-top: 1px solid #444;
+  margin: 16px 0;
+}
+.footer-copy {
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  margin: 0;
 }
 
