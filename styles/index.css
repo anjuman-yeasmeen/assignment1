@@ -7,7 +7,7 @@ box-sizing: border-box;
 /* shared style */
 body {
   font-family: "Inter", sans-serif;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 header{
@@ -35,7 +35,6 @@ header{
 nav{
   width:100% ;
   max-width: 1360px;
-  border: 1px solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -64,6 +63,7 @@ nav .menu a{
   padding-top: 16px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,3 +145,93 @@ margin: 0 auto;
 
 }
 
+/* note section */
+#Notes-Section{
+    width:100% ;
+max-width: 1360px;
+text-align: center;
+margin: 0 auto;
+/* padding-bottom: 44px; */
+/*  */
+}
+#Notes-Section h1{
+  font-size: 48px;
+  font-style: 700;
+  padding-bottom: 16px;
+}
+#Notes-Section p{
+  font-size: 16px;
+  font-weight: 400;
+}
+#Notes-Section .cards-container{
+  margin-top: 44px;
+  display:flex;
+}
+#Notes-Section .notes-cards{
+  width: 322px;
+  height: 300px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color:#FFFFFF;
+
+}
+
+#Notes-Section .notes-cards h2{
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  text-align: center;
+  text-transform: capitalize;
+}
+#Notes-Section .notes-cards p{
+font-size: 16px;
+font-weight: 400;
+margin-top: 16px;
+}
+
+#Notes-Section .img-circle{
+  width: 60px;
+  height: 60px;
+  background-color: #F95555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+/* Second-Brain-Section */
+/* #Second-Brain-Section{ */
+    /* width:100% ; */
+/* max-width: 1360px; */
+/* margin: 0 auto; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+  /* gap: 60px; */
+/*  */
+/* } */
+/* #Second-Brain-Section .image-section{ */
+  /* width: 600px; */
+  /* height: 600px; */
+  /* border-radius: 12px; */
+/* } */
+/*  */
+/*  */
+/* .check-list li { */
+  /* background-image: url("../assets/CheckCircle.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: left top 4px; */
+  /* background-size: 18px 18px; */
+/*  */
+  /* padding-left: 32px;    */
+  /* margin-bottom: 14px; */
+/*  */
+  /* font-size: 16px; */
+  /* line-height: 1.6; */
+  /* color: #333; */
+/* } */
